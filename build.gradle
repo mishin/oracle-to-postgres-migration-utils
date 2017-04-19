@@ -1,0 +1,14 @@
+project.description = 'Server-migration'
+
+apply plugin: 'java'
+
+dependencies {
+    repositories {
+      mavenCentral()
+    }
+
+    compile 'org.slf4j:slf4j-api:1.7.21',
+            'org.springframework:spring-tx:4.2.5.RELEASE',
+            'org.springframework:spring-jdbc:4.2.5.RELEASE'
+
+}
